@@ -1,6 +1,6 @@
 # Advaya
- Basic Music Player 
- -Developed on React.js
+Basic Music Player
+Developed in React.js
 
 Screenshots of the Application
 
