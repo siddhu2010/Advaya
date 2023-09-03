@@ -4,6 +4,6 @@ Basic Music Player <br>
 
 Screenshots of the Application
 
-Screenshot 2023-09-03 222227.png
+https://github.com/siddhu2010/Advaya/blob/73a97a31d120b5c15e3c7d5f0dffff15463b6581/Screenshot%202023-09-03%20222227.png
 
 
