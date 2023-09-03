@@ -1,0 +1,81 @@
+#grad1 {
+  height: 1000px;
+  background-color: turquoise; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #012d48, #6699ff);
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  /* object-fit:fill;
+  z-index: -1;
+  top: 0;
+  left: 0; */
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  object-fit: cover;
+  
+}
+
+.App {
+  background-color: #000066 - #6699ff;
+  color:#6699ff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-items: center;
+  
+}
+
+.background_color {
+  background-color: #000066 - #6699ff;
+
+}
+
+.fullscreen-btn{
+  background-color: transparent;
+  border: none;
+  color: white;
+  align-items:flex-start;
+  justify-content: space-between;
+  display: flex;
+    justify-content:start;
+    margin: 0 1224px;
+    position: relative;
+    padding: 0 10px; 
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  font-style: italic;
+}
+
+  .author-name {
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .login{
+    align-items: right;
+  }
+
+.fab fa-linkedin{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.nav_options{
+  align-items :start;
+  justify-content: space-between;
+  display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin: 0 5px;
+
+}

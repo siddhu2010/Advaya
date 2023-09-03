@@ -1,0 +1,39 @@
+<div className='song-name'>
+        {moodMode === 'chill' ? (
+          <span>Song name: {chill[currentSongIndex].name}</span>
+        ) : moodMode === 'jazzy' ? (
+          <span>Song name: {jazzy[currentSongIndex].name}</span>
+        ) : (
+          <span>Song name: {sleep[currentSongIndex].name}</span>
+        )}
+      </div>
+      <div className='controller'>
+        {moodMode === 'chill' ? (
+          <Player
+            currentSongIndex={currentSongIndex}
+            setCurrentSongIndex={setCurrentSongIndex}
+            songs={chill}
+          />
+        ) : moodMode === 'jazzy' ? (
+          <Player
+            currentSongIndex={currentSongIndex}
+            setCurrentSongIndex={setCurrentSongIndex}
+            songs={jazzy}
+          />
+        ) : (
+          <Player
+            currentSongIndex={currentSongIndex}
+            setCurrentSongIndex={setCurrentSongIndex}
+            songs={sleep}
+          />
+
+
+          <Player
+          currentSongIndex={currentSongIndex}
+          setCurrentSongIndex={setCurrentSongIndex}
+          nextSongIndex={nextSongIndex}
+          songs={songs}
+        />
+
+        import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
+        export const useAppDispatch = () => useDispatch();
