@@ -4,6 +4,7 @@ Basic Music Player <br>
 
 Screenshots of the Application
 
-https://github.com/siddhu2010/Advaya/blob/73a97a31d120b5c15e3c7d5f0dffff15463b6581/Screenshot%202023-09-03%20222227.png
+![image](https://github.com/siddhu2010/Advaya/assets/92944722/627ce14e-5ca7-46b2-b9bf-2387bde09ce7)
+
 
 
