@@ -1,5 +1,5 @@
 # Advaya
-Basic Music Player \n
+Basic Music Player <br>
 Developed in React.js
 
 Screenshots of the Application
