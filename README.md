@@ -2,8 +2,8 @@
 Basic Music Player <br>
 -Developed in React.js
 
-Link to the Web Application
-
+Advaya Link
+<hr>
 https://advaya-a3283.web.app/
 
 Screenshots of the Application
